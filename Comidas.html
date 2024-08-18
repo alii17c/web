@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas - El Buen Sazón</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <marquee>El Buen Sazón</marquee>
+        </header>
+        <main>
+            <h1>Comidas</h1>
+            <div class="menu">
+                <a class="menu-item">Comida Corrida --> $70<br><small>Incluye: Sopa, Arroz, Guisado, Frijoles y Agua</small></a>
+                <div class="menu-item" onclick="toggleMenu('a-la-carta-menu')">
+                    Comida a la Carta --> $80
+                </div>
+                <div id="a-la-carta-menu" class="sub-menu">
+                    <a class="sub-menu-item">Bistec al gusto</a>
+                    <a  class="sub-menu-item">Pechuga al gusto</a>
+                </div>
+            </div>
+            <a href="PagPrincipal.html" class="back-button">Volver al Menú Principal</a>
+        </main>
+        <footer>
+            <p>Todos los desayunos y comidas pueden ser enviados a domicilio, ¡Contáctanos!: <strong>55 4993 9918</strong></p>
+        </footer>
+    </div>
+</body>
+</html>

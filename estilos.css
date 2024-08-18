@@ -1,0 +1,116 @@
+body {
+    font-family: Homeworks;
+    margin: 0;
+    padding: 0;
+    background: url('fondo3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    background: beige;
+    padding: 10px;
+    text-align: center;
+    height: 70px;
+}
+
+marquee {
+    color: brown;
+    font-weight: bold;
+    font-family: Homeworks;
+    font-size: 60px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: brown;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.menu-item {
+    background: beige;
+    padding: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: brown;
+    font-size: 40px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background: brown;
+    color: white;
+}
+
+.sub-menu {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    background: beige;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sub-menu-item {
+    background: beige;
+    padding: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: brown;
+    font-size: 30px;
+    transition: background 0.3s;
+}
+
+.sub-menu-item:hover {
+    background: rgba(255, 235, 59, 0.8);
+    color: #000;
+}
+
+.back-button {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+    transition: background 0.3s;
+    font-family: Century Gothic21;
+}
+
+.back-button:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+footer {
+    background: beige;
+    padding: 25pxpx;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: brown;
+}
